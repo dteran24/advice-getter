@@ -1,0 +1,15 @@
+@import 'config';
+button{
+    color: $primary-color ;
+    background-color: $secondary-color;
+    margin: 1rem 0;
+    border: none;
+    font-size: 1.5em;
+    padding: .5em;
+    border-radius: 5px;
+    &:hover{
+        cursor: pointer;
+        background-color: $primary-color;
+        color: $secondary-color;
+    }
+}

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono&display=swap");
+button {
+  color: white;
+  background-color: #008080;
+  margin: 1rem 0;
+  border: none;
+  font-size: 1.5em;
+  padding: .5em;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #008080;
+}
+
+@media (max-width: 500px) {
+  .adviceBox {
+    width: 100%;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  background-color: #202A44;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.adviceBox {
+  background-color: #495371;
+  padding: 1rem;
+  border-radius: 4px;
+  width: 70%;
+}
+
+.adviceBox p {
+  color: white;
+  font-size: 2em;
+}
+
+.adviceBox p:nth-child(2) {
+  color: #008080;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+/*# sourceMappingURL=style.css.map */
